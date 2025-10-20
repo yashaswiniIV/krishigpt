@@ -4,7 +4,7 @@ const express = require('express');
 const cors = require('cors');
 
 const app = express();
-const port = process.env.PORT || 3001; // Use port from .env or default to 3001
+const port = process.env.PORT || 5000; // Use port from .env or default to 3001
 
 // Middleware
 app.use(cors()); // Allow requests from your frontend
